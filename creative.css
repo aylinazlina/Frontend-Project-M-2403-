@@ -1,0 +1,715 @@
+/* ========================== Common Css ========================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,br,section,span,div,img{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1182px;
+    margin: auto;
+    /* background-color: burlywood; */
+    padding: 34px 0;
+    position: relative;
+    
+}
+
+/* ========================== Common Css ========================= */
+
+/* ========================== navbar Css ========================= */
+.navbar{
+    height: 154px;
+    /* background-color: chartreuse; */
+   
+}
+
+.navbarWrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav,
+.navUl,
+.navUlLi,
+.navUlLi__Item{
+    display: flex;
+    column-gap: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+    position: relative;
+    top: 10px;
+    
+}
+
+.nav,
+.navUl,
+.navUlLi,
+.navUlLi__Item:hover{
+    color: #5956E8;
+}
+
+.button__item{
+    height: 50px;
+    width: 148px;
+    background-color: #5956E8;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: "Inter", sans-serif;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+.button__item:hover{
+    background-color: white;
+    color: #5956E8;
+    border: 2px solid #5956E8;
+
+}
+
+
+/* ========================== navbar Css ========================= */
+/* ========================== banner Css ========================= */
+.banner{
+    height: 900px;
+    /* width: 1920px; */
+  
+    background: #5956E8;
+
+}
+.bannerWrapper{
+   
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.bannerLeft{
+    max-width: 542px;
+    max-height: 424px;
+    padding: 237px 0;
+    display: flex;
+    flex-direction: column;  
+    row-gap: 30px;   
+}
+.bannerLeft_title{
+    max-width: 501px;
+    max-height: 240px;
+    font-family: "Inter", sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+    color: #FFFEFE;
+
+
+}
+.bannerLeft_summary{
+    max-width: 542px;
+    max-height: 281px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.button_getStarted{
+    width: 144px;
+    height: 48px;
+    border-radius: 10px;
+    font-family: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    color:#5956E8;
+    cursor: pointer;
+}
+.button_getStarted:hover{
+    background-color: #5956E8;
+    color: white;
+    border: 2px solid white;
+}
+
+.bannerRight{
+   
+    width: 479.73px;
+    height: 535.32px;   
+    position: absolute;
+    left: 695px;
+    top:   190px;
+
+}
+
+/* ========================== banner Css ========================= */
+/* ========================== Service Css ========================= */
+
+.Service_title{
+    max-width: 254px;
+    max-height: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    color: #181818;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.Service_summary{
+    max-width: 542px;
+    max-height: 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+    color: #181818B2;
+    text-align: center;
+    
+}
+
+.Service_top{
+    
+    
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    
+}  
+
+
+/* ======================== Service bottom Css ========================= */
+
+.Service_box{
+    max-width: 370px;
+    max-height: 385px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 63px 48px;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+}
+i{
+    max-width: 70px;
+    max-height: 70px;
+}
+.ServiceBox_title{
+    max-width: 224px;
+    max-height: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.26px;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+
+}
+
+.ServiceBox_summary{
+    max-width: 274px;
+    max-height: 108px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #181818B2;
+
+}
+
+.ServiceBottomWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+/* ======================== Service bottom Css ========================= */
+/* ========================== WorkPortfolio Css ========================= */
+
+.WorkPortfolioTitle__Wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    row-gap: 20px;
+}
+.WorkPortfolio_title{
+    max-width: 363px;
+    max-height: 48px;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    color:#181818;
+
+}
+.WorkPortfolio_summary{
+    max-width: 542px;
+    max-height: 54px;
+    text-align-last: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+    
+
+}
+
+.overlay{
+     width: 230px;
+     height: 113px;
+     background-color: #5956E8;
+     position: absolute;
+     border-radius: 10px;
+     left: 18px;
+     top: 100%;
+     transition: ease-in-out 0.5s;
+     
+     
+}
+.overlayWrapper{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 100%;
+    row-gap: 13px;
+    padding: 25px 0;
+
+}
+.seeDetails{
+    color: white;
+    text-decoration: none;
+}
+
+.WorkPortfolioBottomWrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.WorkPortfolioBottomWrapper:hover .overlay{
+     top: 55%;
+
+}
+
+.WorkPortfolioBottomWrapper__Full{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+
+
+
+
+
+
+/* ========================== WorkPortfolio Css ========================= */
+/* ========================== ExpertTeamMember Css ========================= */
+.ExpertTeamMemberTopWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    row-gap: 20px;
+}
+.ExpertTeamMemberTitle{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: "Inter", sans-serif;
+}
+.ExpertTeamMemberSummary{
+    max-width: 542px;
+    max-height: 54px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+    text-align-last: center;
+
+}
+
+
+.ExpertTeamMemberBottom{
+    max-width: 370px;
+    max-height: 444px;
+    position: relative;
+    overflow: hidden;
+}
+.Expert_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.ExpertOverlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgb(89, 86, 232) 27%,rgb(255, 255, 255) 70%);
+    bottom: 100%;
+    opacity: 0.6;
+    transition: ease-in-out 0.3s;
+}
+.ExpertTeamMemberBottom:hover .ExpertOverlay{
+    bottom: 0%;
+}
+
+.ExpertOverlay_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    color: white;
+    max-width: 134px;
+    max-height: 54px;
+
+
+
+}
+
+.ExpertOverlay_titleName{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+}
+
+.ExpertOverlay_titleDesgin{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+.ExpertTeamMemberBottomWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+/* ========================== ExpertTeamMember Css ========================= */
+/* ==========================  CustomerExperience Css ========================= */
+
+.CustomerExperienceTop_Wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 142px;
+    padding-bottom: 50px;
+}
+
+.CustomerExperienceTitle{
+    max-width: 603px;
+    max-height: 96px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: "Inter", sans-serif;
+}
+
+.CustomerExperienceSummary{
+    max-width: 542px;
+    max-height: 54px;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.coustomerCard{
+    width: 370px;
+    height: 425px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid #f9f9f9;
+}
+
+.coustomerCardDetailsWrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    padding-left: 39px;
+    padding-bottom: 24px;
+}
+
+.CustomerReviewStar{
+    padding-top: 30px;
+    padding-right: 7px;
+}
+
+.CustomerReview{
+    width: 274px;
+    height: 108px;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+     font-family: "Inter", sans-serif;
+}
+.ReviewerName{
+    position: absolute;
+    bottom: 74px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+}
+.CustomerExperience__CommaPic{
+    width: 63.09px;
+    height: 46px;
+    position: absolute;
+    bottom: 24px;
+    right: 39.91px;
+}
+.ReviewerProf{
+    position: absolute;
+    bottom: 47px;
+    color: #5D5D5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+}
+.CustomerCardWrapperFull{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ==========================  CustomerExperience Css ========================= */
+/* ==========================  LetestNews Css ========================= */
+
+
+.LetestNewsTitleWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 142px;
+    padding-bottom: 50px;
+    row-gap: 20px;
+
+}
+.LetestNewsTitle{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+
+    
+}
+
+.LetestNewsTitleSummary{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter", sans-serif; 
+    color: #181818;
+    width: 542px;
+    height: 54px;
+    text-align-last: center;
+}
+
+
+.LetestNewsBox{
+    width: 370px;
+    height: 490px;
+    background-color: #FFFFFF;
+    border: 2px solid #eeeeee;
+    border-radius: 10px;
+}
+
+
+.LetestNewsPic{
+    position: absolute;
+    padding: 17px 19px 0 19px;
+    
+}
+
+
+
+.latestNewsbottomWrapper{
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 234px;
+    padding-left: 35px;
+
+} 
+
+.iconAndtitle{
+    display: flex;
+    column-gap: 10px;
+}
+.LetestNewsIcon{
+    display: flex;
+    column-gap: 30px;
+}  
+
+.latestNewsbottomtitle{
+    width: 271px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    padding-top: 13px;
+    color: #181818;
+
+}
+.latestNewsbottomSummary{
+    padding-top: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter", sans-serif;
+    color: #5D5D5D;
+}
+.learnMore{
+    padding-top: 15px;
+    color: #5956E8;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    font-family: "Inter", sans-serif;
+}
+
+.LetestNewsBoxWrapperFull{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+}
+
+/* ==========================  LetestNews Css ========================= */
+/* ==========================  Footer Css ========================= */
+
+
+.footer{
+    background-color: #efeffd;
+    
+
+}
+.footerLeft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.footerSummary{
+    font-size: 16px;
+    font-weight: 400;
+    line-height:27px ;
+    color: #5D5D5D;
+    font-family: "Inter", sans-serif;
+    width: 300px;
+    height: 81px;
+}
+.footerIcon{
+    display: flex;
+    column-gap: 12px;
+    
+}
+.iconHolder{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+i[class="fa-brands fa-facebook-f"],i[class="fa-brands fa-twitter"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footerRightUL{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items:flex-start;
+    
+
+
+    
+}
+
+.FooterRightTitle{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+
+}
+
+.footer__Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: start ;
+    
+}
+
+.footerRight__link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #5D5D5D;
+    font-family: "Inter", sans-serif;
+    
+}
+.footerRight__Address{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #5D5D5D;
+    font-family: "Inter", sans-serif;
+   
+}
+
+
+
+/* ==========================  Footer Css ========================= */
